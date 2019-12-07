@@ -1,0 +1,38 @@
+Эта простая программа позволяет рассчитать небольшую, но очень часто решаемую на практике
+логистическую задачу - вычисление загрузки количества коробок определенного размера в стандартную фуру (грузовик).
+
+Очень редко размер коробок подобран так, что коробки в фуре становятся вплотную. В основном, всегда остается
+пустое место с  каждой стороны фуры, поэтому пользоваться при рассчетах загрузки товара геометрическим объемом
+неправильно. Для рассчетов загрузки применяется Условный объем коробки.
+Условный объем коробки = Геометрический объем кузова стандартной фуры / количество загружаемых коробок.
+
+Количество коробок программой вычисляется при загрузке двумя способами - длинной стороной коробки вдоль длинной
+стороны фуры и длинной стороной коробки вдоль короткой стороны (поперек) фуры.
+
+На основании этого количества вычисляются условные объемы коробки при загрузке разными методами
+и сравниваются между собой, и с геометрическим объемом коробки.
+
+В результате предлагается предпочтительный метод загрузки, а также выводится количественное и
+процентное его преимущество над другим методом.
+
+Программа реализована на двух языках - английском и русском.
+
+
+This simple program allows you to calculate the small, but very often solved in practice
+the logistical task is to calculate the load of the quantity of boxes of a certain size in a standard truck.
+
+Very rarely, the size of the boxes is selected so that the boxes in the wagon become close. Basically always stays
+empty space on each side of the truck, so use geometric volume when calculating the load of goods
+wrong. For load calculations, the Conventional box volume is used.
+Conventional box volume = Geometric volume of a standard truck body / number of loaded boxes.
+
+The number of boxes the program calculates when loading in two ways - the long side of the box along the long
+side of the truck and the long side of the box along the short side (across) of the truck.
+
+Based on this quantity, the conditional volumes of the box are calculated when loading by different methods
+and compared with each other, and with the geometric volume of the box.
+
+As a result, a preferred loading method is proposed, and a quantitative and
+its percentage advantage over another method.
+
+The program is implemented in two languages ​​- English and Russian.
